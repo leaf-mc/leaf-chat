@@ -1,0 +1,13 @@
+name: LeafChat
+version: '${version}'
+main: mc.leaf.modules.chat.LeafChat
+api-version: 1.18
+prefix: LeafChat
+depend: [ LeafCore ]
+authors: [ alexpado ]
+description: Pimp my chat
+website: https://github.com/alexpado
+commands:
+  nickname:
+    usage: /nickname [name]
+    description: Change your nickname in the chat
